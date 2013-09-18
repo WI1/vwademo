@@ -5,3 +5,4 @@
 [Gabriel Susic](https://github.com/GS-VWA/VWA-01)  
 [Akar Akyazi](https://github.com/canik77)  
 [Waldemar Averin](https://github.com/Bob7419/vwanur)  
+[Joerg VWA ;-)](https://github.com/Joerg-vwa/ium-projekt)
