@@ -8,7 +8,8 @@
 [Gabriel Susic](https://github.com/GS-VWA/VWA-01)  
 [Joerg VWA ;-)](https://github.com/Joerg-vwa/ium-projekt)  
 [Tobias Ziegler](https://github.com/froggy006/zt)  
- ## Links zu wichtigen Downloads  
+  
+## Links zu wichtigen Downloads  
 [Pantheon Drupal Hosting](https://www.getpantheon.com/)  
 [Drupal Quickstart](https://drupal.org/project/quickstart)  
   
@@ -28,7 +29,7 @@
  -- git push origin master  
  6. Original Makefile (/home/quickstart/websites/d7.make) kopieren und eigenes makefile erstellen, umbennen in "vwa.make". Folgende Zeilen einfügen (Lädt Drupal 7 und Bootstrap + eigenes Sub-Theme herunter):
 
- `
+```
 core = 7.x
 api = 2
 
@@ -39,7 +40,7 @@ projects[bootstrap][type] = "theme"
 projects[vwa][download][type] = "get"
 projects[vwa][download][url] = "<PFAD ZUM EIGENEN GIT REPOSITORY>/archive/master.zip"
 projects[vwa][type] = "theme"
-`
+```
 
 7. Eigenes Makefile testen durch das erstellen einer Testseite per "drush qc --domain=<meineseite.tst> --makefile=<meinmakefile.make>". Makefile kann dabei heruntergeladen oder direkt über http-URL im Befehl genutzt werden.
  
