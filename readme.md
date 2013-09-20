@@ -10,8 +10,9 @@
 [Tobias Ziegler](https://github.com/froggy006/zt)  
   
 ## Links zu wichtigen Downloads  
-[Pantheon Drupal Hosting](https://www.getpantheon.com/)  
+[Git Client für Windows](http://git-scm.com/)  
 [Drupal Quickstart](https://drupal.org/project/quickstart)  
+[Pantheon Drupal Hosting](https://www.getpantheon.com/)  
   
 ## Beispielrepository von Dominik (vwadev)
 [vwadev](https://github.com/dominikb1888/vwadev)
