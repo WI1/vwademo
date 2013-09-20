@@ -27,8 +27,10 @@
  -- git commit -am 'initial'  
  -- git remote add origin <PFAD ZUM EIGENEN GIT REPOSITORY>  
  -- git push origin master  
- 6. Original Makefile (/home/quickstart/websites/d7.make) kopieren und eigenes makefile erstellen, umbennen in "vwa.make". Folgende Zeilen einfügen (Lädt Drupal 7 und Bootstrap + eigenes Sub-Theme herunter):
-
+6. Original Makefile (/home/quickstart/websites/d7.make) kopieren und eigenes makefile erstellen, umbennen in "vwa.make". Folgende Zeilen einfügen (Lädt Drupal 7 und Bootstrap + eigenes Sub-Theme herunter):
+7. Eigenes Makefile testen durch das erstellen einer Testseite per "drush qc --domain=<meineseite.tst> --makefile=<meinmakefile.make>". Makefile kann dabei heruntergeladen oder direkt über http-URL im Befehl genutzt werden.
+ 
+### Beispielcode für ein Makefile (eigene Repository-URL - in <> - ersetzen oder Adresse des Zip-Archivs komplett einsetzen)
 ```
 core = 7.x
 api = 2
@@ -42,5 +44,4 @@ projects[vwa][download][url] = "<PFAD ZUM EIGENEN GIT REPOSITORY>/archive/master
 projects[vwa][type] = "theme"
 ```
 
-7. Eigenes Makefile testen durch das erstellen einer Testseite per "drush qc --domain=<meineseite.tst> --makefile=<meinmakefile.make>". Makefile kann dabei heruntergeladen oder direkt über http-URL im Befehl genutzt werden.
- 
+
