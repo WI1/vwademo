@@ -23,11 +23,11 @@
 4. Erstellen eines Subthemes durch kopieren des Beispielordners nach "sites/all/themes", der mit dem Bootstrap Theme kommt. Umbenennen des Ordners (z.B. in "vwa")
 5. Erstellen eines git repository im Ordner "sites/all/themes/vwa" und pushen der Dateien per 
 ```
-git init  
-git add *  
-git commit -am 'initial'  
-git remote add origin <PFAD ZUM EIGENEN GIT REPOSITORY>  
-git push origin master  
+$ git init
+$ git add *
+$ git commit -am 'initial'
+$ git remote add origin <PFAD ZUM EIGENEN GIT REPOSITORY>
+$ git push origin master
 ```
 6. Original Makefile (/home/quickstart/websites/d7.make) kopieren und eigenes makefile erstellen, umbennen in "vwa.make". Folgende Zeilen einfügen (Lädt Drupal 7 und Bootstrap + eigenes Sub-Theme herunter):
 7. Eigenes Makefile testen durch das erstellen einer Testseite per "drush qc --domain=<meineseite.tst> --makefile=<meinmakefile.make>". Makefile kann dabei heruntergeladen oder direkt über http-URL im Befehl genutzt werden.
