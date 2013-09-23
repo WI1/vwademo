@@ -5,6 +5,7 @@
 [Alexander Faber](https://github.com/faxel2201/vwa)  
 [Sebastian Hauser](https://github.com/SH702/testvorlesung)  
 [Tilman Korbacher](https://github.com/Avatar78/vwaproject)  
+[Heiko Reinbacher](https://github.com/reinbsi/VWADemo.git)
 [Gabriel Susic](https://github.com/GS-VWA/VWA-01)  
 [Joerg VWA ;-)](https://github.com/Joerg-vwa/ium-projekt)  
 [Tobias Ziegler](https://github.com/froggy006/zt)  
