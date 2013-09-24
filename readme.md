@@ -20,10 +20,11 @@
   
 ## Kurzanleitung Quickstart  
 1. Download von Drupal Quickstart (Link siehe oben)  
-2. Im Ordner /home/quickstart/websites eine neue Seite anlegen mit "drush qc --domain=<meineseite.dev> --makefile=d7.make"  
-3. Herunterladen eines Templates (z.B. Bootstrap) per "drush dl bootstrap". Die Dateien sind unter "sites/all/themes/templates/bootstrap" zu finden.
-4. Erstellen eines Subthemes durch kopieren des Beispielordners nach "sites/all/themes", der mit dem Bootstrap Theme kommt. Umbenennen des Ordners (z.B. in "vwa")
-5. Erstellen eines git repository im Ordner "sites/all/themes/vwa" und pushen der Dateien per 
+2. Im Ordner /home/quickstart/websites eine neue Seite anlegen mit "drush qc --domain=<meineseite.dev> --makefile=d7.make" 
+3. Per "cd <meinedomain.dev>" z.B. vwa.dev in den Ordner der Webseite gehen. Dorthin wurde Drupal durch "drush qc" geladen. 
+4. Herunterladen eines Templates (z.B. Bootstrap) per "drush dl bootstrap". Die Dateien sind unter "sites/all/themes/thems/bootstrap" zu finden.
+5. Erstellen eines Subthemes durch kopieren des Beispielordners nach "sites/all/themes", der mit dem Bootstrap Theme kommt. Umbenennen des Ordners (z.B. in "vwa")
+6. Erstellen eines git repository im Ordner "sites/all/themes/vwa" und pushen der Dateien per 
 
 ```
 $ git init
